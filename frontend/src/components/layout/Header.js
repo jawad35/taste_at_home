@@ -131,13 +131,6 @@ const Header = () => {
 													<nav className="main-nav d-none d-lg-block">
 														<ul className="d-flex align-items-center">
 															<li className="menu-item">
-																<figure className="avatar avatar-nav">
-																	<img
-																		src={user.avatar && user.avatar.url}
-																		alt={user && user.name}
-																		className="rounded-circle"
-																	/>
-																</figure>
 																<Link to="" className="menu-link ">
 																	{user.name}
 																	<svg
@@ -162,9 +155,6 @@ const Header = () => {
 																		</li>
 																	)}
 
-																	<li>
-																		<Link to="/me">Profile</Link>
-																	</li>
 																	<Link
 																		to="/"
 																		className="text-danger"
